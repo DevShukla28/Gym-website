@@ -1,0 +1,120 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("https://img.huffingtonpost.com/asset/5ff8a1382600004e567a3c27.jpeg?ops=1778_1000");
+  background-repeat: no-repeat cover;
+  background-size: cover;
+}
+header{
+  position: fixed;
+  top:0;
+  left: 0;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background: rgba(32, 183, 213, 0.707);
+  border-radius: 110px;
+}
+.left ,.right{
+  display: block;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.gender-label{
+  margin-right: 5px;
+}
+.left img {
+  width: 88px;
+  filter: inveret(100%);
+}
+.left div {
+  color: rgb(240, 240, 13);
+  text-align: center;
+  font-size: 20px;
+}
+.mid {
+  display: block;
+  
+}
+#banner{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  color: white;
+  height: 100vh;
+  align-items: center;
+}
+#banner .right-cont{
+  text-align: right;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 2px;
+  list-style-type: none;
+}
+.navbar li {
+  font-size: 25px;
+  padding: 2px;
+}
+.navbar li a {
+  color: rgb(245, 247, 248);
+  text-decoration: none;
+  margin: 0 15px;
+  transition: 0.2s ease;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: skyblue;
+}
+.btn { 
+  margin: 4px 5px;
+  color: skyblue;
+  background-color: black;
+  padding: 4px 14px;
+  border: 4px solid grey;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  right: 20px;
+}
+.btn:hover {
+  background-color: grey;
+}
+
+.form-group .text-box{
+  text-align: none;
+  display: block;
+  width: 250px;
+  padding: 7px;
+  /* margin: 10px; */
+  margin: 0;
+  
+}
+.form-group{
+  margin-bottom: 15px;
+}
+.container button {
+  display: block;
+  /* margin: 6%; */
+  /* width: 40%; */
+}
+.middle {
+  background-size: cover;
+}
+
+
+ 
